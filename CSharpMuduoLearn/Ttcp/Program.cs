@@ -112,7 +112,7 @@ internal class Program
 
         stopwatch.Stop();
         double elapsed = stopwatch.Elapsed.TotalSeconds;
-        Console.WriteLine($"{elapsed:F3} seconds\n{totalMib / elapsed:F3} MiB / s\n");
+        Console.WriteLine($"{elapsed:F3} seconds\n{totalMib / elapsed:F3} MiB / s");
         socket.Close();
     }
 
