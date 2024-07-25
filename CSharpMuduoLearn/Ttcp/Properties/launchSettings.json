@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ttcp": {
+      "commandName": "Project",
+      "commandLineArgs": "start -r"
+    }
+  }
+}
